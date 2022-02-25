@@ -1,9 +1,7 @@
 const options = {
-  host: 'localhost',
-  port: '25565',
-  username: 'email@example.com',
-  password: '12345678',
-}
+  host: 'pecraftserver.aternos.me',
+  port: '18256',
+  username: 'bot'}
 const bot = mineflayer.createBot(options)
 bot.on('kicked', console.log)
 bot.on('error', console.log)
